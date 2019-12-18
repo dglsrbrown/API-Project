@@ -93,7 +93,7 @@ function isEmpty(obj){
                 if (isEmpty(correctionsObject)){// if object is empty do this
                     console.log("Spelling/s is/are accurate");
                     //if spelling is accurate do something
-                    correct.style.display ="block";
+                    correct.style.display ="inline";
                     correctionsDisplay.style.display ="none";
                     listDisplay.style.display ="none";
                     suggestionDisplay.style.display = "none";
